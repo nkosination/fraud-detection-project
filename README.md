@@ -29,6 +29,27 @@ The dataset is highly imbalanced, with fraudulent transactions representing a ve
 \- Select the most suitable model for deployment
 
 
+\## Project Structure
+
+fraud-detection-project/
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Data_preprocessing.ipynb
+│   ├── 03_logistic_regression&model_evaluation.ipynb
+│   ├── 04_smote_logistic_regression.ipynb
+│   ├── 05_random_forest.ipynb
+│   └── 06_xgboost.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+
+
+
+
 
 \## Models Evaluated
 
@@ -59,6 +80,19 @@ The dataset is highly imbalanced, with fraudulent transactions representing a ve
 | Random Forest | 0.94 | 0.82 | 0.87 | 0.9630 |
 
 | XGBoost | 0.90 | 0.80 | 0.84 | 0.9601 |
+
+
+
+\## Key Findings
+
+- Fraudulent transactions represented less than 0.2% of the dataset.
+- Logistic Regression provided a strong baseline model.
+- SMOTE significantly improved recall but produced many false positives.
+- Random Forest achieved the best balance between precision and recall.
+- XGBoost performed competitively but did not outperform Random Forest on this dataset.
+
+
+
 
 
 
