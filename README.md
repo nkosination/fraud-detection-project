@@ -129,6 +129,21 @@ Random Forest was selected as the preferred model because it achieved the best b
 
 
 
+\## Business Impact
+
+In a real-world fraud detection environment, false positives can inconvenience customers, while false negatives can result in financial losses. Random Forest achieved the best balance between fraud detection and false alarm reduction, making it the preferred model for deployment.
+
+
+
+
+\## Installation
+
+```bash
+pip install -r requirements.txt
+
+
+
+
 \## Technologies Used
 
 
