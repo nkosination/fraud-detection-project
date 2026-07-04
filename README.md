@@ -12,6 +12,11 @@ This project develops and evaluates machine learning models for detecting fraudu
 
 The dataset is highly imbalanced, with fraudulent transactions representing a very small proportion of all transactions. Several machine learning approaches were evaluated and compared.
 
+\## Dataset
+
+This project uses the Credit Card Fraud Detection dataset, which contains transactions made by European cardholders. The dataset is highly imbalanced, with fraudulent transactions accounting for a very small percentage of all observations.
+
+
 
 
 \## Objectives
@@ -31,6 +36,7 @@ The dataset is highly imbalanced, with fraudulent transactions representing a ve
 
 \## Project Structure
 
+```text
 fraud-detection-project/
 │
 ├── notebooks/
@@ -44,6 +50,7 @@ fraud-detection-project/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 
 
