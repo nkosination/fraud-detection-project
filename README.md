@@ -12,6 +12,24 @@ This project develops and evaluates machine learning models for detecting fraudu
 
 The dataset is highly imbalanced, with fraudulent transactions representing a very small proportion of all transactions. Several machine learning approaches were evaluated and compared.
 
+
+\## Dataset Setup
+
+The dataset is not included in this repository due to size restrictions.
+
+Download the Credit Card Fraud Detection dataset from Kaggle and place:
+
+creditcard.csv
+
+inside:
+
+data/
+
+before running the notebooks.
+
+
+
+
 \## Dataset
 
 This project uses the Credit Card Fraud Detection dataset, which contains transactions made by European cardholders. The dataset is highly imbalanced, with fraudulent transactions accounting for a very small percentage of all observations.
